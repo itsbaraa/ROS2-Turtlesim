@@ -1,4 +1,7 @@
 # ROS2 Introduction
+
+ROS2 (Robot Operating System 2) is an open-source freamwork that is used to build robot applications.
+  
 This repo is an introduction to ROS2 using trutlesim, a lightweight simulator for beginners to learn how to use ROS2.
   
 Before we get started we need to make sure that ROS2 is properly installed, follow the official [docs](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) to install ROS2.
