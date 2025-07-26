@@ -3,7 +3,7 @@ This repo is an introduction to ROS2 using trutlesim, a lightweight simulator fo
   
 Before we get started we need to make sure that ROS2 is properly installed, follow the official [docs](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) to install ROS2.
 
-# Installing Turtlesim
+## Installing Turtlesim
 Now that we have ROS2 installed, let's install turtlesim using the following command: 
 ```
 sudo apt install ros-humble-turtlesim
@@ -14,7 +14,7 @@ To verify that turtlesim was installed properly run the following command:
 ros2 pkg executables turtlesim
 ```
   
-# Starting Turtlesim
+## Starting Turtlesim
 Use the following command on a new terminal window to start a new turtlesim node:
 ```
 ros2 run turtlesim turtlesim_node
@@ -23,7 +23,7 @@ Now a window with a turtle in the middle will appear, you can also see informati
   
 <img width="486" height="524" alt="image" src="https://github.com/user-attachments/assets/c90ae512-a79c-4432-a613-7e7957fa83e1" />
 
-# Controlling The Turtle
+## Controlling The Turtle
 Use the following command on a new terminal window to create a new node that controls the turtle from the first node. 
 ```
 ros2 run turtlesim turtle_teleop_key
@@ -32,7 +32,7 @@ Now you can use the Arrow keys to move the turtle around.
   
 <img width="488" height="521" alt="image" src="https://github.com/user-attachments/assets/44b89c2d-c850-4c0c-84c5-e83d13d20f1d" />
   
-# Installing and Using rqt
+## Installing and Using rqt
 rqt is a GUI (Graphical User Interface) for ROS2.
 Run the following command to install rqt:
 ```
