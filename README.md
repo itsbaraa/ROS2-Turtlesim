@@ -52,7 +52,7 @@ From the services dropdown menu you can try to use `/spawn`, it's going to spawn
    
 You can also use `/kill` service to remove a turtle from the turtlesim window using the turtle's name.
 
-You can use `/set_pen` to modify the color of the line drawn under the turtle when it moves.
+You can use `/set_pen` to modify the color and the width of the pen under the turtle when it moves.
 
 To control your new turtle you can use the following command on a new terminal:
   
