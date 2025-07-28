@@ -66,6 +66,3 @@ ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle2
 Replace `turtle2` in the command above with your turtle's name.
 
 <img width="1892" height="908" alt="image" src="https://github.com/user-attachments/assets/b7e355cf-ef47-4e92-b5a4-0c198752e387" />
-
-
-
